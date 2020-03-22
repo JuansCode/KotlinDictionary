@@ -1,6 +1,7 @@
 # [KotlinDictionary](https://market.mashape.com/community/urban-dictionary)
 
 Created an Android Application in Kotlin using Urban Dictionary API. Utilized MVVM architectural pattern.
+
 In order to run application:
  - Have Android Studio installed
  - Install an Android Virtual Device, or have your phone configured to run on Android Studio
