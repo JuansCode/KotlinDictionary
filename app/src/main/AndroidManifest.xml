@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.jpimentel.spacex">
+    package="com.jpimentel.kotlindic">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -14,21 +14,17 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity
-            android:name=".view.activity.ItemListActivity"
+            android:name="com.jpimentel.kotlindic.view.activity.ItemListActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".view.activity.ItemDetailActivity"
-            android:label="@string/title_item_detail"
-            android:theme="@style/AppTheme.NoActionBar">
 
-        </activity>
 
         <meta-data
             android:name="preloaded_fonts"
