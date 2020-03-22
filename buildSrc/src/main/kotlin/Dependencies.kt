@@ -35,8 +35,6 @@ object Libraries {
         const val retrofitGson = "2.4.0"
         const val retrofitRxJava2 = "2.4.0"
         const val lifecycle = "2.1.0"
-        const val glide = "4.9.0"
-        const val circularImage = "3.2.0"
         const val okhttpLogging = "3.13.1"
 
         const val ktx = "1.1.0-alpha05"
@@ -61,10 +59,6 @@ object Libraries {
 
     const val lifecycleExtension = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycle}"
     const val lifecycleCommonJava8 = "androidx.lifecycle:lifecycle-common-java8:${Versions.lifecycle}"
-
-    const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
-    const val glideCompiler = "com.github.bumptech.glide:compiler:${Versions.glide}"
-    const val circularImage = "com.mikhaellopez:circularimageview:${Versions.circularImage}"
 
     const val ktxCore = "androidx.core:core-ktx:${Versions.ktx}"
     const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"

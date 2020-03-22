@@ -1,11 +1,10 @@
 <resources>
-    <string name="app_name">SpaceX</string>
-    <string name="title_item_detail">Item Detail</string>
-    <string name="mission_name">Mission Name-:%s</string>
-    <string name="rocket_name">Rocket Name-:%s</string>
-    <string name="launch_site_name">Launch Site Name-:%s</string>
-    <string name="date_of_launch">Date of Launch-:%s</string>
-    <string name="mission_details">Mission Details-:%s</string>
-    <string name="launch_path_image">Launch path image</string>
+    <string name="app_name">Kotlin Urban Dictionary</string>
+
     <string name="loading_data">Loading data..</string>
+    <string name="retry">Retry</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Type word to search...</string>
 </resources>

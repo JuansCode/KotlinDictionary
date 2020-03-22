@@ -8,7 +8,7 @@ plugins {
 android {
     compileSdkVersion(AndroidSdk.compile)
     defaultConfig {
-        applicationId = "com.jpimentel.spacex"
+        applicationId = "com.jpimentel.kotlindic"
         minSdkVersion(AndroidSdk.min)
         targetSdkVersion(AndroidSdk.target)
         versionCode = 1
@@ -19,8 +19,8 @@ android {
         getByName("release") {
             isMinifyEnabled = false
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro"
             )
         }
     }
@@ -57,10 +57,6 @@ dependencies {
     implementation(Libraries.retrofitRxJava2Adapter)
 
     implementation(Libraries.okhttpLogging)
-
-    implementation(Libraries.circularImage)
-    implementation(Libraries.glide)
-    kapt(Libraries.glideCompiler)
 
     implementation(Libraries.ktxCore)
     implementation(Libraries.kotlinStdLib)
