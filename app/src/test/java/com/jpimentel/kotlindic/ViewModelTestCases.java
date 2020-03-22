@@ -23,8 +23,6 @@ import org.junit.runners.JUnit4;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import java.util.ArrayList;
-
 import io.reactivex.Single;
 
 import static junit.framework.Assert.assertFalse;
@@ -69,13 +67,11 @@ public class ViewModelTestCases {
     public void testApiFetchDataSuccess() {
         // Mock API response
         UrbanResponse urbanResponse = new UrbanResponse();
-        ArrayList<UrbanResponse> list = new ArrayList<>();
-        list.add(urbanResponse);
+//        ArrayList<UrbanResponse> list = new ArrayList<>();
+//        list.add(urbanResponse);
         when(apiClient.getDefinitionList(anyString())).thenReturn(Single.just(urbanResponse));
         viewModel.loadData("Banana");
         verify(observer).onChanged(true);
-//        verify(observer).onChanged(false);
-//        assertFalse(viewModel.getData().isEmpty());
     }
 
 
