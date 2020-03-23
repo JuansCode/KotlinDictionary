@@ -7,7 +7,7 @@ In order to run application:
  - Install an Android Virtual Device, or have your phone configured to run on Android Studio
 When application is running:
 
-![Main Page](https://github.com/JuansCode/KotlinDictionary/blob/master/Screenshot_20200322-114940_Kotlin%20Urban%20Dictionary.jpg "Logo Title Text 1")
+![Main Page](https://github.com/JuansCode/KotlinDictionary/blob/master/Screenshot_20200322-114940_Kotlin%20Urban%20Dictionary.jpg =24x48)
 An Edit Text with a Search Icon should be available. Insert any word you would like to search on Edit Text bar, and press the monacle icon
 to perform the search.
 
