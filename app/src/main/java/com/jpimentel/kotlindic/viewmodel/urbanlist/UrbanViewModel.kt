@@ -71,12 +71,12 @@ class UrbanViewModel(context: Context) : CustomViewModel() {
         if(!clicked){
             clicked = true
             adapter.updateData(
-                data.sortedByDescending { it.thumbs_up }
+                data.sortedWith(compareByDescending{it.thumbs_up}).toList()
             )
         }else{
             clicked = false
             adapter.updateData(
-                data.sortedByDescending { it.thumbs_down }
+                data.sortedWith(compareByDescending{ it.thumbs_down }).toList()
             )
         }
     }
