@@ -31,7 +31,6 @@ class UrbanViewModel(context: Context) : CustomViewModel() {
 
     fun loadData( term : String) {
         onLoading()
-        data.clear()
         disposable?.add(
             apiService.getDefinitionList(term)
                 .compose(rxSingleSchedulers.applySchedulers())
@@ -40,12 +39,13 @@ class UrbanViewModel(context: Context) : CustomViewModel() {
     }
 
     private fun onSuccess(urbanModel: UrbanResponse) {
+        data.clear()
         urbanModel.list?.forEach { items ->
             if (items != null) {
                 data.add(items)
-                adapter.notifyDataSetChanged()
-
             }
+            adapter.updateData(data)
+            adapter.notifyDataSetChanged()
         }
         dataLoading.value = false
     }
