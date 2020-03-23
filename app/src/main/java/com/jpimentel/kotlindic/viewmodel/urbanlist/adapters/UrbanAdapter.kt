@@ -12,19 +12,12 @@ import java.util.*
 
 class UrbanAdapter(
     private val mContext: Context,
-    private val urban_list: ArrayList<ListItem>
+    private var urban_list: ArrayList<ListItem>
 ) : CustomRecyclerViewAdapter<ListItem, UrbanAdapter.MyViewHolder>() {
 
-
-//    private var listSize : Int? = urban_list[0].list?.size
-
+    
     override fun updateData(data: List<ListItem>) {
-        if (data.isEmpty()) {
-            this.urban_list.clear()
-        } else {
-            this.urban_list.clear()
-            this.urban_list.addAll(data)
-        }
+        urban_list = data as ArrayList<ListItem>
         notifyDataSetChanged()
     }
 
