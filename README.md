@@ -8,20 +8,20 @@ In order to run application:
  
 When application is running:
 
-<img src="https://github.com/JuansCode/KotlinDictionary/blob/master/Screenshot_20200322-114940_Kotlin%20Urban%20Dictionary.jpg" height="280" width="150">
+<img src="https://github.com/JuansCode/KotlinDictionary/blob/master/Screenshot_20200322-114940_Kotlin%20Urban%20Dictionary.jpg" height="450" width="250">
 
 An Edit Text with a Search Icon should be available. Insert any word you would like to search on Edit Text bar, and press the monacle icon
 to perform the search.
 
 When search is performed:
 
-<img src="https://github.com/JuansCode/KotlinDictionary/blob/master/Screenshot_20200322-114947_Kotlin%20Urban%20Dictionary.jpg" height="280" width="150">
+<img src="https://github.com/JuansCode/KotlinDictionary/blob/master/Screenshot_20200322-114947_Kotlin%20Urban%20Dictionary.jpg" height="450" width="250">
 
 Once you hit search, a loading dialog should appear while the search is performed. Once that completes, an Image View with Thumbs Up & Down 
 should appear, with the list of items from the Api call.
 
 When Thumps Up & Down is pressed:
 
-<img src="https://github.com/JuansCode/KotlinDictionary/blob/master/Screenshot_20200322-114954_Kotlin%20Urban%20Dictionary.jpg" height="280" width="150">
+<img src="https://github.com/JuansCode/KotlinDictionary/blob/master/Screenshot_20200322-114954_Kotlin%20Urban%20Dictionary.jpg" height="450" width="250">
 
 Pressing the Thumbs image view should sort the list to decending order based on Thumbs Down, or Thumbs Up number
